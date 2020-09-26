@@ -288,6 +288,10 @@ module.exports = {
 
 Attention, you have to use two loaders to transform CSS file. First is [CSS-loader](https://www.npmjs.com/package/css-loader) to read CSS file, and another one is [Style-loader](https://www.npmjs.com/package/style-loader) to insert `<style>` tag into HTML page.
 
+Run
+npm install --save-dev css-loader
+npm install --save-dev style-loader
+
 Then, launch the server.
 
 ```bash
